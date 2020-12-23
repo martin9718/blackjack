@@ -1,0 +1,37 @@
+.row{
+    margin-right: 0px;
+ }
+
+ .container-fluid{
+    padding-right: 0px;
+ }
+
+html,
+body {
+    margin: 0px;
+    background: #2f4f30;
+    color: white;
+}
+
+.cardDeck {
+   padding-left: 0px !important;
+   padding-right: 0px !important;
+   margin-left: -15px;
+}
+
+.min-height{
+    min-height: 240px;
+}
+
+
+.divCards img:first-child{
+    margin-left: 30px !important;
+}
+
+@media (max-width: 767px) { 
+    .divCards img:nth-child(5){
+        margin-left: 30px !important;
+        margin-top: 10px;
+    }
+ }
+
